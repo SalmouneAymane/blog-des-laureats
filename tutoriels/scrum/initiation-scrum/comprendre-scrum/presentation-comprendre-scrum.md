@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: "T.351.111 — Scrum Agile Governance"
-footer: "TaskFlow — Personal Web Task Manager"
+footer: "Music Platform"
 ---
 
 # Understanding Agile & the Scrum Framework
@@ -57,11 +57,11 @@ The process or product changes quickly when inspection reveals a problem.
 
 ---
 
-# 4. Scrum Roles — TaskFlow
+# 4. Scrum Roles — Music Platform
 
-- **Product Owner:** Prioritizes task creation and completion before dark mode or calendar sync
+- **Product Owner:** Prioritizes music search and playback before social playlists or premium subscriptions
 - **Scrum Master:** Keeps Daily Scrums under 15 minutes and removes environment blockers
-- **Developers:** Build the database, API, and task-management UI
+- **Developers:** Build the music catalog, audio API, and responsive player interface
 
 ---
 
@@ -103,7 +103,7 @@ The process or product changes quickly when inspection reveals a problem.
 
 - Code peer-reviewed
 - Unit and feature tests passing
-- Responsive UI verified
+- Audio playback and responsive UI verified
 - Zero critical bugs
 - Deployed to staging
 
@@ -111,33 +111,34 @@ The process or product changes quickly when inspection reveals a problem.
 
 ---
 
-# 7. TaskFlow — Sprint 1
+# 7. Music Platform — Sprint 1
 
 ## Product Goal
 
-Deliver a clean, fast web application for organizing daily personal tasks.
+Deliver a fast and accessible platform for discovering and listening to music.
 
 ## Sprint Goal
 
-> “Allow a user to create, view, and mark tasks as completed.”
+> “Allow a user to search for music, play a track, and add it to favorites.”
 
 ---
 
-# 7. TaskFlow — Sprint Backlog
+# 7. Music Platform — Sprint Backlog
 
-- **US1:** As a user, I can add a task with a title and priority.
-- **US2:** As a user, I can view my active tasks in a list.
-- **US3:** As a user, I can check off a task as completed.
+- **US1:** As a user, I can search the music catalog by title or artist.
+- **US2:** As a user, I can play and pause a selected track.
+- **US3:** As a user, I can add a track to my favorites.
 
 ---
 
-# 7. TaskFlow — Sprint Outcome
+# 7. Music Platform — Sprint Outcome
 
 At the **Sprint Review**, the team demonstrates:
 
 - A live MVP
-- Tasks added and saved in the database
-- Tasks toggled from active to completed
+- Tracks searched from the music catalog
+- Audio played and paused through the player
+- Tracks saved to favorites
 - All Definition of Done criteria met
 
 ---

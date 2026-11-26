@@ -32,11 +32,11 @@
 
 ## 4. The 3 Scrum Roles
 
-| Role | Core Responsibility | Example (*TaskFlow* Project) |
+| Role | Core Responsibility | Example (*Music Platform* Project) |
 | :--- | :--- | :--- |
-| **Product Owner (PO)** | Maximizes product value; defines the vision and prioritizes the **Product Backlog**. | Prioritizes *creating/completing tasks* ahead of *dark mode* or *calendar sync*. |
+| **Product Owner (PO)** | Maximizes product value; defines the vision and prioritizes the **Product Backlog**. | Prioritizes *music search and playback* ahead of *social playlists* or *premium subscriptions*. |
 | **Scrum Master (SM)** | Coaches the team on Scrum rules, facilitates events, and removes blockers. | Ensures Daily Scrums stay under 15 minutes and resolves environment setup delays. |
-| **Developers** | Cross-functional builders who design, code, test, and deliver the **Increment**. | Builds the database schema, backend API, and UI for task management. |
+| **Developers** | Cross-functional builders who design, code, test, and deliver the **Increment**. | Builds the music catalog, audio API, and responsive player interface. |
 
 ---
 
@@ -54,16 +54,16 @@
 
 - **Increment:** A concrete, usable stepping stone toward the Product Goal that builds upon all prior Increments.
 - **Definition of Done (DoD):** A formal quality checklist every item must meet before being considered complete.
-  - *Example DoD for TaskFlow:* Code peer-reviewed, unit/feature tests passing, responsive UI verified, zero critical bugs, and deployed to staging.
+  - *Example DoD for the music platform:* Code peer-reviewed, unit/feature tests passing, audio playback and responsive UI verified, zero critical bugs, and deployed to staging.
 
 ---
 
-## 7. Concrete Example: Sprint 1 on *TaskFlow*
+## 7. Concrete Example: Sprint 1 on the *Music Platform*
 
-- **Product Goal:** Deliver a clean, fast web application to organize daily personal tasks.
-- **Sprint 1 Goal:** *"Allow a user to create, view, and mark tasks as completed."*
+- **Product Goal:** Deliver a fast and accessible platform for discovering and listening to music.
+- **Sprint 1 Goal:** *"Allow a user to search for music, play a track, and add it to favorites."*
 - **Sprint Backlog (Selected User Stories):**
-  - *US1:* As a user, I can add a task with a title and priority.
-  - *US2:* As a user, I can view my active tasks in a list.
-  - *US3:* As a user, I can check off a task as completed.
-- **Sprint 1 Outcome:** At the **Sprint Review**, the team demonstrates a live MVP where tasks can be added, persisted in the database, and toggled complete—meeting all **DoD** criteria.
+  - *US1:* As a user, I can search the music catalog by title or artist.
+  - *US2:* As a user, I can play and pause a selected track.
+  - *US3:* As a user, I can add a track to my favorites.
+- **Sprint 1 Outcome:** At the **Sprint Review**, the team demonstrates a live MVP where tracks can be searched, played through the audio player, and saved as favorites—meeting all **DoD** criteria.
